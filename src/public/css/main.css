@@ -1,0 +1,36 @@
+/* body {
+    background: #a8c0ff;
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+} */
+input[type="file"]{
+    display: none;
+}
+.label1 {
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    bottom: 20px;
+    right:20;
+    position: fixed;
+    float: right;
+}
+.label2 {
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    bottom: 20px;
+    right:100;
+    position: fixed;
+    float: right;
+}
