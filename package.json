@@ -11,9 +11,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "should": "~7.1.0",
+    "mocha": "~2.3.3",
+    "supertest": "~1.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.14.2",
+    "multer": "1.1.0",
     "bcryptjs": "^2.4.3",
     "chromedriver": "^78.0.1",
     "connect-flash": "^0.1.1",

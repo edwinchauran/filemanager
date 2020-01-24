@@ -1,0 +1,25 @@
+
+<div class="row">
+{{#each files}}
+    <div class="col-12 col-lg-4">
+        <div class="pt-5 bg-white embed-responsive embed-responsive-21by9">
+            <video controls class=" embed-responsive-item" src="/files/videos/{{this}}"></video>
+        </div>
+        <div class="bg-white pt-2 pb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col"><b>{{this}}</b></div>
+                    <div class="col d-flex justify-content-end">
+                        <a class="btn border border-dark p-2 " target="_blank" download href="/files/videos/{{this}}"><i class="fa fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            {{!-- <input type="checkbox">
+            <i class="fa fa-trash"></i> --}}
+        </div>
+        {{!-- <div class="shadow">
+        </div> --}}
+    </div>
+{{/each}}
+</div>
+
