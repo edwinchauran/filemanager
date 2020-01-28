@@ -8,7 +8,7 @@ const session = require("express-session");
 const app = express();
 require("./database");
 //Settings
-app.set("po=rt", process.env.PORT || 80);
+app.set("port", process.env.PORT || 80);
 app.set("views", path.join(__dirname, "views"));
 app.engine(
   ".hbs",
@@ -43,5 +43,4 @@ app.use(express.static(path.join(__dirname, "/public")));
 //Server is Listening
 app.listen(app.get("port"), () => {
   console.log("Server on port", app.get("port"));
-  console.log("all good");
 });
