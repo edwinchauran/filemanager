@@ -1,5 +1,6 @@
-archivos/
-PHP_FILES/
-Thumbs.db
+Thumbs.db/
 node_modules/
 followerbot/
+program_manager/node_modules/
+program_manager/example/
+program_manager/bin/
