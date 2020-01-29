@@ -4,22 +4,6 @@
       "views": [
         {
           "id": "codesandbox.browser"
-        },
-        {
-          "id": "codesandbox.browser",
-          "options": {
-            "port": 46335,
-            "url": "https://b7pjs-46335.sse.codesandbox.io"
-          },
-          "closeable": true
-        },
-        {
-          "id": "codesandbox.browser",
-          "options": {
-            "port": 42321,
-            "url": "https://b7pjs-42321.sse.codesandbox.io"
-          },
-          "closeable": true
         }
       ]
     },
